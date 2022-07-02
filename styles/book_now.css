@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .form_background {
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .bg1 {
+    background-image: linear-gradient(rgba(134, 134, 134, 0.4), rgba(85, 85, 85, 0.678)), url("../images/my/\(3\).jpg");
+    padding: 16px;
+    background-color: gray;
+    margin: auto;
+    border-radius: 5px;
+  }
+  
+  .container {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.822);
+    margin: 100px 400px;
+    border-radius: 10px;
+  }
+  
+  .container input[type=text], select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .container input[type=text]:focus, select:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .container hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  #title {
+    color: #d19f68;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 50px;
+  }
+  
+  #p1 {
+    text-align: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .p1 {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  }
+  
+  .f1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  .datetime{
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .button {
+    background-color: #d19f68;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    position: relative;
+    left: 24%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    opacity:1;
+    background-color: #45a049;
+    color: white;
+  }
+
+  .signin {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(114, 114, 114, 0.301);
+    margin: 0px 0px;
+    border-radius: 2px;
+  }

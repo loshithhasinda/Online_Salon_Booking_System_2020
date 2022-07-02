@@ -1,0 +1,515 @@
+/* index.html */
+
+body {
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+
+}
+
+#main-sections {
+    background-color: #eaeded;
+}
+
+
+/* Header - Start */
+
+.logo {
+    display: block;
+    margin-right: auto;
+    position: absolute;   
+    top: -40px;
+    
+}
+
+#header-style {
+    background-color: #ffffff;
+    height: 68px;
+}
+
+#login_signup {
+    float: right;
+    
+}
+#login_signup_line {
+    background-color: #18454a;  
+    width: 100%;
+    height: 50px;
+}
+
+#login_signup button {
+    padding: 4px;
+    width: 100px;
+    height: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    font-weight: 320px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.signup {
+    margin: 8px 8px 0 0;    
+}
+.login {
+    margin: 8px 40px 0 8px;
+}
+#login_signup button:hover {
+    background-color: #043d12;
+    color: white;
+}
+
+/* Header - End */
+
+
+h1,h2,h3 {
+    font-family: 'Kodchasan';
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgb(12, 78, 10);
+}
+
+
+/* Navigation Menu - Start */
+
+.navi-bar {
+    overflow: hidden;
+    background-color: #ffffff;
+    margin: 0 0 10px 200px;
+}
+
+.navi-bar a {
+    float: left;
+    color: rgb(2, 54, 26);
+    text-align: center;
+    padding: 12px 16px;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.navi-bar a:hover {
+    background-color: #ddd;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.navi-bar a.active {
+    background-color: #18454a;
+    color: white;
+}
+
+.navi-bar .search-bar {
+    float: right;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color:  #00484b;
+    margin: 8px 10px 0 0;
+}
+
+.navi-bar input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(231, 226, 226);
+}
+
+.navi-bar .search-bar button {
+    float: right;
+    padding: 0 0 5px 0;
+    background: #19772e;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.search-bar i.fa {
+    padding: 0px;
+}
+
+.navi-bar .search-bar button:hover {
+    opacity: 100%;
+}
+
+/* Navigation Menu - End */
+
+/* Offer text banner*/
+#offer {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	background-color: rgb(118, 163, 184);
+	color: rgb(231, 235, 234);
+	padding-left: 130px;
+	padding-top: 65px;
+    padding-bottom: 65px;
+}
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+/* Sidebar */
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(12, 12, 12);
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: rgba(246, 246, 246, 0.555);
+	padding-top: 36px;
+	height: 784px;
+}
+/* main content of the site */
+#content .mainContent {
+	float: left;
+	width: 80%;
+	text-align: center;
+	padding-left: 4%;
+}
+/*menubar's properties for menus in sidebar */
+#content .sidebar #menubar {
+	text-align: left;
+	color: rgba(146,146,146,1.00);
+	position: relative;
+	left: 0%;
+}
+/* Search field in sidebar */
+#content .sidebar #search {
+	width: 100%;
+	border-radius: 0px;
+	height: 42px;
+	text-align: center;
+	color: rgba(208,207,207,1.00);
+	font-size: 14px;
+	;
+	margin-bottom: 21px;
+}
+/* Whole page content */
+#mainWrapper {
+	width: 100%;
+	
+}
+/*menu elements */
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -35px;
+	padding-top: 12px;
+}
+/* Product rows for catalog */
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 25%;
+}
+/* Prices of a products in catalog */
+.productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(7, 6, 8);
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+}
+/* Content holder for products in catalog*/
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 14px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgb(11, 48, 139);
+	white-space: pre-wrap;
+}
+/* View button for products in catalog */
+.productRow .productInfo .ViewButton {
+	position: relative;
+	top: -48px;
+	width: 84%;
+	background-color: rgba(208, 207, 207, 0.137);
+	height: 35px;
+	color: rgba(8, 12, 245, 0.205);
+	border-style: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+
+
+
+/* Menu headings in sidebar */
+#menubar .menu h2 {
+	font-size: 14px;
+}
+/*Links under menus in sidebar */
+#menubar .menu ul li a {
+	font-size: 14px;
+}
+/* Menus in sidebar */
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
+/* Container for links in footer */
+footer .footerlinks {
+	margin-top: -15px;
+}
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+/* search field in sidebar */
+#content .sidebar #search {
+	display: none;
+}
+/* sidebar */
+#content .sidebar {
+	float: none;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding-left: 12%;
+	padding-top: 0px;
+}
+/* horizontal separators in sidebar */
+#content .sidebar hr {
+	display: none;
+}
+/*The sidebar and maincontent of page */
+#content {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+/*menu headings in sidebar */
+#menubar .menu h2 {
+	display: inline;
+	font-size: medium;
+	padding-right: 6%;
+}
+/* Unordered List of links */
+#menubar .menu ul {
+	display: inline;
+}
+/*list elements */
+#menubar .menu ul li {
+	display: inline;
+	font-size: medium;
+	padding-left: 0%;
+	padding-right: 3%;
+}
+/*The link to be hidden in tablet view */
+.sidebar #menubar .menu ul .notimp {
+	display: none;
+}
+/* menus in sidebar */
+.sidebar #menubar .menu {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 16px;
+}
+/*menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -7%;
+	overflow: hidden;
+	width: 95%;
+	padding-top: 0px;
+}
+/* offer banners content */
+#mainWrapper #offer p {
+	font-size: small;
+}
+/* main content region of page */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 110%;
+	margin-top: 40px;
+}
+/* Prices of products in catalog view */
+.productRow .productInfo .price {
+	font-size: 19px;
+}
+/* Content holders in catalog view */
+.productRow .productInfo .productContent {
+	font-size: 16px;
+}
+/* Buy buttons in catalog view */
+.productRow .productInfo .getButton {
+	font-size: 15px;
+}
+
+
+
+
+/* Offer- Text banner */
+#mainWrapper #offer {
+	padding-left: 22%;
+}
+
+
+
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+/*Container for links in header */
+#mainWrapper header #headerLinks {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(190,190,190,1.00);
+	padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 100%;
+	text-align: center;
+}
+/* Links in header */
+header #headerLinks a {
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+/*Offer - Text Banner */
+#mainWrapper #offer {
+	padding-left: 0px;
+	text-align: center;
+}
+/* Menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -8%;
+	text-align: center;
+}
+/*Menu headings in sidebar */
+#menubar .menu h2 {
+	width: 100%;
+	display: block;
+}
+/* Each product in catalog view */
+.mainContent .productRow .productInfo {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+/* Unordered list for menu elements */
+.menu ul {
+	position: relative;
+	padding-left: 24%;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+/* Main content which excludes the sidebar */
+#mainwrapper #content .mainContent {
+	margin-top: -81px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+}
+}
+
+  /****** FOOTER - Start ******/
+
+  .footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    background-color: #262626;
+}
+
+.footer-last {
+    background-color: #1d1d1d;
+    height: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.footer-last-line {
+    display: inline;
+    padding: 10px;
+}
+
+.footer-last a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-last a:hover {
+    color:rgb(70, 172, 124);
+}
+
+/* Soical Media */
+
+.soical-media a {
+	margin: 10px;
+}
+
+.soical-media a:hover {
+	cursor: pointer;
+}
+
+.soical-media img {
+	width: 32px;
+	height: 32px;
+}
+
+.footer-main {
+    background-color: #262626;
+}
+
+.footer-main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer-main-column {
+    float: left;
+    width: 30%;
+}
+
+.footer-main-column p {
+    margin-left: 180px;
+    color: rgb(70, 172, 124);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+}
+
+.footer-main-column p a {
+    color: rgb(70, 172, 124);
+    text-decoration: none;
+}
+.footer-main-column p a:hover {
+    color: rgb(35, 85, 62);
+    transition: 0.4s;
+}
+
+/****** FOOTER - End ******/

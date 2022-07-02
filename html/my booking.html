@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> Manage My Booking - SalonBooking.lk </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="../styles/index.css">
+        <link rel="stylesheet" href="../styles/my_booking.css">
+        
+        <!--JS-->
+        <script type="text/javascript" src="../js/index.js"></script>
+ 
+    </head>
+
+    <body>
+        
+        <!----- HEADER - START ----->
+
+        <div class="cover-page-bg-img">
+
+            <div class="cover-page-bg-img-div">
+
+                <!-- Navigation Bar Slide Down On Scroll - Start -->
+                <div id="navbar">
+                    <p style="float: left; color: #1d2434;"><b> SalonBooking.lk </b></p>
+                    
+                    <div class="nav-right" style="float: right;">
+                        <a href="#home">Home</a>
+                        <a href="#make_booking"> Make Booking </a>
+                        <a href="#services"> Services </a>
+                        <a href="#salons"> Salons </a>
+                        <a href="#products"> Products </a>
+                        <a href="#contact_us"> Contact Us </a>
+                        <button onclick="document.location=''" style="margin-left: 40px;"> Sign Up </button>
+                        <button onclick="document.location=''" style="margin-left: 20px;"> Sign In </button>
+                    </div>
+                </div>  
+                <!-- Navigation Bar Slide Down On Scroll - End -->
+
+                <!-- Top Logo - Start -->
+                <div class="header-logo">
+                    <p><b> SalonBooking<span>.</span>lk </b></p>
+                </div>
+                <!-- Top Logo - End -->
+
+                <!-- Top Navigation Bar - Start -->
+                <div class="section-topnav">
+                    <div class="topnav">
+                        <a href="#home" class="active-a"> <div class="border-bottom" id="active-div"> Home </div></a> 
+                        <a href="#make_booking"> <div class="border-bottom"> Make Booking </div></a> 
+                        <a href="#services"> <div class="border-bottom"> Services </div></a> 
+                        <a href="#salons"> <div class="border-bottom"> Salons </div></a> 
+                        <a href="#products"> <div class="border-bottom"> Products </div></a>
+                        <a href="#contact_us"> <div class="border-bottom"> Contact Us </div></a>
+                        <button onclick="document.location=''" style="margin-left: 40px;"> Sign Up </button>
+                        <button onclick="document.location=''" style="margin-left: 40px;"> Sign In </button>
+                    </div>
+                </div>
+                <!-- Top Navigation Bar - End -->
+
+                <!-- Horizontal Line - Start -->
+                <hr style="width: 100%; border-color: #775a3a;">
+                <br>
+                <!-- Horizontal Line - End -->
+
+                <!-- Page Title - Start -->
+                <div class="page-title">
+                    <p> Manage My Booking</p>
+                </div>
+                <!-- Page Title - End -->
+
+            </div>
+
+        </div>
+
+        <!----- HEADER - END ----->
+
+        <div class="section01" style="height: 0px; background-color: #f3eded;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--UPDATE BOOKING-->
+
+
+        <div class="form_background">
+ 
+            <div class="bg1">
+
+                <div class="container1">
+
+                    <div>
+                        <h1 class="f1">My Booking Details</h1>
+                        <table>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Phone No.</th>
+                            <th>Service Type</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Branch</th>
+
+                        </tr>
+                        <tr>
+                            <td>@firstname</td>
+                            <td>@lastname</td>
+                            <td>0715858585</td>
+                            <td>hair-cutting, colouring and styling</td>
+                            <td>12/10/2020</td>
+                            <td>09:30 AM</td>
+                            <td>Colombo</td>
+                        </tr>
+                        </table>   
+                    </div>
+
+                    <br><br>
+
+                    <div class="container2">
+                        <h1 id="title"></h1>
+
+                        <div class="logo">
+                            <img src="../images/my/logo.png"  width="240px" height="240px" style="border-radius: 20%;">
+                        </div>
+                
+                        <button type="submit" class="button">Change</button>
+                        <button type="submit" class="button">Cancel Booking</button>
+
+                    </div>
+
+                    <div class="container3">
+
+                        <div class="container4">
+
+                            <label class="f1"><b>Name:</b></label>
+                            <input type="text" placeholder="First Name" required>
+                            <input type="text" placeholder="Last Name" required><br>
+                
+                            <label class="f1"><b>Phone Number</b></label>
+                            <input type="text" placeholder="Your phone number.." required>
+                
+                            <label class="f1"><b>Service Type</b></label>
+                            <input type="text" placeholder="Enter service type.." required>
+                
+                            <label class="f1"><b>Date</b></label>
+                            <input type="date" class="datetime" required>
+                        
+                            <label class="f1"><b>Time</b></label>
+                            <input type="time" class="datetime" required>
+    
+                            <label class="f1"><b>Branch</b></label>
+                            <select>
+                                <option>Colombo</option>
+                                <option>Kandy</option>
+                                <option>Kurunegala</option>
+                                <option>Negombo</option>
+                            </select>       
+
+                        </div>
+
+                    </div>
+      
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--END UPDATE BOOKING-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!----- FOOTER - START ----->
+
+        <div class="section-footer" style="height: 400px;">
+            <div class="section-footer-bg">
+
+                <div class="footer-div" style="margin: 0 auto; max-width: 1300px;"> 
+           
+                    <div class="footer-row">
+    
+                        <div class="footer-column" style="margin: 10px 10px 10px 22px;">
+                            <p class="footer-column-logo"> SalonBooking.lk </p>
+                            <p class="footer-column-note"> Find the best Salons in your area. Simply search and make a beauty appointment online quickly at the salon of your choice. </p>
+                            <p class="footer-column-email"> salonbookinglk@gmail.com </p>
+                        </div>
+    
+                        <div class="footer-column" style="margin: 10px;">   
+                            <p class="footer-column-topic01"> Quick Navigation </p>
+                            <div class="footer-column-nav">
+                                <p> <a href="#home"> Home </a> </p>
+                                <p> <a href="#make_booking"> Make Booking </a> </p>
+                                <p> <a href="#services"> Services </a> </p>
+                                <p> <a href="#salons"> Salons </a> </p>
+                                <p> <a href="#products"> Products </a> </p>
+                            </div>
+                        </div>
+    
+                        <div class="footer-column" style="margin: 10px;"> 
+                            <p class="footer-column-topic02"> Explore </p> 
+                            <div class="footer-column-explore">
+                                <p> <a href="#about_us"> About Us </a> </p>
+                                <p> <a href="#contact_us"> Contact Us </a> </p>
+                                <p> <a href="#feedback"> Feedback </a> </p>
+                                <p> <a href="#privacy_policy"> Prtvacy Policy </a> </p>
+                                <p> <a href="#terms&conditions"> Terms and Conditions </a> </p>
+                            </div>
+                        </div>
+    
+                        <div class="footer-column" style="margin: 10px;"> 
+                            <p class="footer-column-topic03"> Follow Us </p>
+                            <div class="footer-column-social-media"> 
+                                <div class="footer-column-social-media-div">  <p> <a href="https://www.facebook.com/" target="blank"> <img src="../images/facebook-b.png"> </a> </p> </div> 
+                                <div class="footer-column-social-media-div">  <p> <a href="https://www.instagram.com/accounts/login/" target="blank"> <img src="../images/instagram-b.png"> </a> </p> </div> 
+                                <div class="footer-column-social-media-div">  <p> <a href="https://twitter.com/login?lang=en" target="blank"> <img src="../images/twitter-b.png"> </a> </p> </div> 
+                                <div class="footer-column-social-media-div">  <p> <a href="https://www.linkedin.com/login" target="blank"> <img src="../images/linkedin-b.png"> </a> </p> </div> 
+                            </div>
+                            <br>
+                            <p class="footer-column-topic03-yt"> Subscribe </p>
+                            <div class="footer-column-social-media-div-yt">  <p> <a href="https://www.youtube.com/" target="blank"> <img src="../images/youtube-b.png"> </a> </p> </div>
+                        </div>
+    
+                    </div>    
+                </div>
+
+            </div>
+
+        </div>
+
+        <!----- FOOTER - END ----->
+
+    </body>
+</html>
+

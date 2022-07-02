@@ -1,0 +1,92 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../images/adam-winger-AyesubMzQ64-unsplash.jpg);
+    }
+
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+
+    .center-button {
+        text-align: center;
+    }
+
+    /* Set a style for all buttons */
+    .button-login {
+    background-color: #d19f68;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    }
+
+    .button-login:hover {
+    opacity: 0.8;
+    }
+
+    .button-admin {
+    background: none;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #4CAF50;
+    cursor: pointer;
+    width: 50%;
+    }
+
+    .button-admin:hover {
+        color: white;
+        background-color: #4CAF50;
+    }
+
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #f44336;
+    }
+
+    /* Center the image and position the close button */
+    .logocontainer {
+    text-align: center;
+    margin: 30px 0 40px 0;
+    position: relative;
+    }
+
+    .logocontainer p {
+        padding: 30px 20px 10px 20px;
+        text-align: center;
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 40px;
+        color: #1d2434;
+    }
+
+    .container {
+    padding: 16px;
+    }
+
+    /* The Close Button (x) */
+    .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+    color: red;
+    cursor: pointer;
+    }
